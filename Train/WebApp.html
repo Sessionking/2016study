@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>基本页面</title>
+  <meta name='viewport' content='width=device-width,initial-scale=1' >
+  <link rel='stylesheet' href='css/jquery.mobile-1.4.3.css' >
+</head>
+<body>
+<div data-role='page' id='index'>
+  <div data-role="header" >
+    <h1>我是页头1</h1>
+  </div>
+  <div role="main" class='ui-content'>
+    <p>我是内容1</p>
+    <p><a href="#index2">index2</a></p>
+  </div>
+  <div data-role="footer">
+    <h1>我是页脚1</h1>
+  </div>
+</div>
+<div data-role='page' id='index2'>
+  <div data-role="header" >
+    <h1>我是页头2</h1>
+  </div>
+  <div role="main" class='ui-content'>
+    <p>我是内容2</p>
+    <p><a href="#index3">index3</a>&nbsp;<a href="#index">index</a></p>
+  </div>
+  <div data-role="footer">
+    <h1>我是页脚2</h1>
+  </div>
+</div><div data-role='page' id='index3'>
+  <div data-role="header" >
+    <h1>我是页头3</h1>
+  </div>
+  <div role="main" class='ui-content'>
+    <p>我是主页3</p>
+    <p><a href="#index">index</a></p>
+  </div>
+  <div data-role="footer">
+    <h1>我是页脚3</h1>
+  </div>
+</div>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery.mobile-1.4.3.js"></script>
+</body>
+</html>
